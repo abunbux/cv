@@ -1,94 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
-    <img src="photo_2022-11-24_23-12-42.jpg" width="10%" alt="А это я!">
-    <h1>Паша</h1>
-    <p><em>А я не основатель, а просто мимо проходил.</em></p>
-    <p><strong>Люблю ли я чем-либо заниматься?</strong></p>
-    <p>А фиг его знает!</p>
-    <hr>
+  <body>
+    <header class="header">
+      <div class="container-main">
+        <!-- <div class="header-1"> -->
+          <img class="header-1" 
+          src="photo_2022-11-24_23-12-42.jpg" 
+          width="5%" 
+          alt="А это я!" />
+        <!-- </div> -->
+        <div class="header-2">
+          <h1>Паша</h1>
+          <em>А я не основатель, а просто мимо проходил.</em>
+          <strong>Люблю ли я чем-либо заниматься?</strong>
+          <p>А фиг его знает!</p>
+        </div>
+      </div>
+    </header>
 
     <h2>Мои социальные сети</h2>
     <ul type="square">
-        <li><a href="https://google.com" target="_blank">Ля-ляя-ляяя.</a></li>
-        <li>Тру-ля-лля.</li>
-        <li>Оба-на-ля.</li>
-        <li>Да ты только глянь.</li>
-        <li>Ну и что же.</li>
+      <li><a href="https://google.com" target="_blank">Ля-ляя-ляяя.</a></li>
+      <li>Тру-ля-лля.</li>
+      <li>Оба-на-ля.</li>
+      <li>Да ты только глянь.</li>
+      <li>Ну и что же.</li>
     </ul>
 
     <h2>Мои хобби.</h2>
     <ol>
-        <li>Ля-ляя-ляяя.</li>
-        <li>Тру-ля-лля.</li>
-        <li>Оба-на-ля.</li>
-        <li>Да ты только глянь.</li>
-        <li>Ну и что же.</li>
+      <li>Ля-ляя-ляяя.</li>
+      <li>Тру-ля-лля.</li>
+      <li>Оба-на-ля.</li>
+      <li>Да ты только глянь.</li>
+      <li>Ну и что же.</li>
     </ol>
 
     <h2>Опыт работы.</h2>
     <table>
-        <thead>
-            <tr>
-                <th>Компания.</th>
-                <th>Должность.</th>
-                <th>Год.</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Компания.</td>
-                <td>Должность.</td>
-                <td>Год.</td>
-            </tr>
-            <tr>
-                <td>Газпром.</td>
-                <td>Менеджер.</td>
-                <td>2001</td>
-            </tr>
-            <tr>
-                <td>Лукойл.</td>
-                <td>Старший менеджер.</td>
-                <td>2011</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>
+      <thead>
+        <tr>
+          <th>Компания.</th>
+          <th>Должность.</th>
+          <th>Год.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Компания.</td>
+          <td>Должность.</td>
+          <td>Год.</td>
+        </tr>
+        <tr>
+          <td>Газпром.</td>
+          <td>Менеджер.</td>
+          <td>2001</td>
+        </tr>
+        <tr>
+          <td>Лукойл.</td>
+          <td>Старший менеджер.</td>
+          <td>2011</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
     </table>
 
     <h2>Связаться со мной.</h2>
     <form action="">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" 
-        placeholder="Введите Ваше имя.">
+      <label for="name">Ваше имя:</label>
+      <input type="text" id="name" placeholder="Введите Ваше имя." />
 
-        <br>
+      <br />
 
-        <label for="email">Ваша почта:</label>
-        <input type="email" id="email"
-        placeholder="Введите адрес Вашей почты.">
+      <label for="email">Ваша почта:</label>
+      <input type="email" id="email" placeholder="Введите адрес Вашей почты." />
 
-        <br>
+      <br />
 
-        <label for="text">Введите Ваше сообщение:</label>
-        <br>
-        <textarea name="" id="text" rows="7" cols="15"></textarea>
-        
-        <br>
+      <label for="text">Введите Ваше сообщение:</label>
+      <br />
+      <textarea name="" id="text" rows="7" cols="15"></textarea>
 
-        <input type="submit" value="Связаться">
+      <br />
 
-
+      <input type="submit" value="Связаться" />
     </form>
 
     <h2>Курсы.</h2>
     <a href="curses.html">Посмотреть список.</a>
-</body>
 
-
+    <script src="main.js"></script>
+  </body>
 </html>
